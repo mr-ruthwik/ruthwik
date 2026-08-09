@@ -1,21 +1,17 @@
 # Sai Ruthwik Madarapu — Portfolio (React + Vite)
 
-A React conversion of the original static HTML/CSS/JS portfolio site.
-Same theme, same layout, same interactive features — just componentized.
-
 ## Features
 - Typewriter effect in the hero tagline
 - Navbar scroll shadow + active-section highlighting + mobile hamburger menu
-- Scroll-reveal fade-in animations (IntersectionObserver)
+- Scroll-reveal fade-in animations
 - Scroll-to-top floating button
-- Execution Guide modal per project, with a fake-progress ZIP download button
+- Execution Guide modal per project, with a progress ZIP download button
 - Resume download button with the same fake-progress animation
 - All original colors, fonts, spacing (style.css copied over unchanged)
 
 ## Tech stack
 - React 19 + Vite
-- lucide-react for icons (2 custom SVGs added for GitHub/LinkedIn since
-  lucide-react no longer ships brand logos, plus HackerRank/WhatsApp)
+- lucide-react for icons (2 custom SVGs added for GitHub/LinkedIn/HackerRank/WhatsApp)
 - No extra state libraries — plain useState/useEffect/useRef, "basic" React
 
 ---
