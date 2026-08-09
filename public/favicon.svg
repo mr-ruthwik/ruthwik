@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Background -->
+  <rect width="32" height="32" rx="8" fill="#0A0F1E"/>
+  <!-- Accent border -->
+  <rect x="1" y="1" width="30" height="30" rx="7" stroke="#5B4FFF" stroke-width="1.5"/>
+  <!-- Subtle gradient overlay -->
+  <rect x="1" y="1" width="30" height="14" rx="7" fill="url(#topGlow)" opacity="0.12"/>
+  <!-- SR text -->
+  <text
+    x="16"
+    y="22"
+    text-anchor="middle"
+    font-family="'Segoe UI', system-ui, sans-serif"
+    font-size="14"
+    font-weight="700"
+    fill="#E8EAF0"
+    letter-spacing="-0.5"
+  >SR</text>
+  <defs>
+    <linearGradient id="topGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5B4FFF"/>
+      <stop offset="100%" stop-color="#0A0F1E"/>
+    </linearGradient>
+  </defs>
+</svg>
