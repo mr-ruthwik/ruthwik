@@ -3,7 +3,7 @@
 A React conversion of the original static HTML/CSS/JS portfolio site.
 Same theme, same layout, same interactive features — just componentized.
 
-## Features carried over 1:1
+## Features
 - Typewriter effect in the hero tagline
 - Navbar scroll shadow + active-section highlighting + mobile hamburger menu
 - Scroll-reveal fade-in animations (IntersectionObserver)
